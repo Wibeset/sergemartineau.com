@@ -7,7 +7,7 @@
 	</header>
 	
 	<div id="serge">
-	  	<div><img src="/assets/img/apropos/serge.jpg?v={{ $version }}" /></div>
+	  	<div><img src="assets/img/apropos/serge.jpg?v={{ $version }}" /></div>
 		<h2>Serge Martineau</h2>
 	</div>
 		
@@ -29,22 +29,22 @@
 		<h2>Des gens d'expérience</h2>
 		<ul>
 		  	<li>
-				<div><img src="/assets/img/apropos/mario.jpg?v={{ $version }}" /></div>
+				<div><img src="assets/img/apropos/mario.jpg?v={{ $version }}" /></div>
 				<h3>Mario Gascon</h3>
 				<p>Arpenteur-géomètre associé à la firme depuis 1984</p>
 			</li>
 		  	<li>
-				<div><img src="/assets/img/apropos/charles.jpg?v={{ $version }}" /></div>
+				<div><img src="assets/img/apropos/charles.jpg?v={{ $version }}" /></div>
 				<h3>Charles Simard</h3>
 				<p>Technicien depuis plus de 15 ans.</p>
 			</li>
 		 	 <li>
-				<div><img src="/assets/img/apropos/yves.jpg?v={{ $version }}" /></div>
+				<div><img src="assets/img/apropos/yves.jpg?v={{ $version }}" /></div>
 				<h3>Yves Simard</h3>
 				<p>Technicien depuis plus de 3 ans.</p>
 			</li>
 		  	<li>
-				<div><img src="/assets/img/apropos/sandra.jpg?v={{ $version }}" /></div>
+				<div><img src="assets/img/apropos/sandra.jpg?v={{ $version }}" /></div>
 				<h3>Sandra Bernard</h3>
 				<p>Adjointe administrative depuis plus de 15 ans.</p>
 			</li>
