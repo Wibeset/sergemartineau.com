@@ -27,4 +27,4 @@ Chicoutimi, Québec
 
 ## Développé par
 
-Wibeset[http://wibeset.com]
+http://wibeset.com
