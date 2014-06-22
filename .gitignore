@@ -1,5 +1,6 @@
 /vendor
 /bootstrap/compiled.php
 composer.phar
+/cache
 ._*
 *.sublime-*
