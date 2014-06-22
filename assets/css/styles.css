@@ -1,0 +1,429 @@
+/*	Resets
+	------	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+a img {
+	border: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Layout */
+
+body, input, textarea {
+    font-family: 'Droid Sans', helvetica, sans-serif;
+	font-size: normal;
+}
+
+a {
+    color: #005177;
+}
+a:hover {
+    color: #016C9E;
+}
+
+#background-main {
+    height: 100px;
+	background: url('../img/black_denim.png') top left #005177;
+}
+
+#main {
+    position: absolute;
+	top: 0;
+	width: 100%;
+}
+.container {
+    margin: 0 auto;
+	width: 960px;
+}
+
+#header {
+    margin-bottom: 40px !important;
+	padding-top: 20px;
+	min-height: 100px;
+}
+#header #home {    
+    font-family: 'Droid Sans';
+	font-size: 240%;
+    color: #FFF;
+	text-decoration: none;
+}
+#header ul {
+    float: right;
+	padding-top: 12px;
+	list-style: none;
+}
+#header ul li {
+    float: left;
+    margin-left: 6px;
+}
+#header ul li a {
+    display: block;
+	padding: 6px 12px;
+    color: #FFF;
+	text-decoration: none;
+}
+.s-index #header ul li.home a,
+.s-services #header ul li.services a,
+.s-realisations #header ul li.realisations a,
+.s-apropos #header ul li.apropos a,
+.s-contact #header ul li.contact a,
+#header ul li a:hover {
+    background-color: #003C59;
+	border-radius: 4px;
+}
+
+#body {
+    margin-top: 40px;
+	min-height: 600px;
+}
+
+div.container {
+    margin-bottom: 100px;
+}
+h1 {
+    margin-bottom: 40px;
+	font-size: 180%;
+	font-weight: normal;
+    color: #333;
+}
+h1 a {
+    text-decoration: none;
+	color: #121254;
+}
+h1 a:hover {
+    color: #121254;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 140%;
+}
+
+#footer {
+    padding: 20px 0;
+	background: url('../img/black_denim.png') top left #FFF;		
+	color: #666;
+	line-height: 24px;
+}
+#footer .container {
+    margin-bottom: 0;
+}
+
+#footer .menu {
+    float: left;
+	width: 300px;
+	margin-right: 30px;
+}
+#footer .last {
+    margin-right: 0;
+}
+#footer ul li {
+    display: block;
+	padding: 8px 0 8px 8px;
+	border-bottom: 1px dotted #CCC;
+	color: #999;
+}
+#footer ul li a {
+    padding-left: 5px;
+    color: #666;
+	text-decoration: none;
+}
+#footer ul li a:hover {
+    color: #000;
+}
+
+#footer .map {
+    display: block;
+    padding: 10px;
+	height: 100px;
+	background-color: #DDD;
+	background-color: rgba(0,0,0,0.05);
+}
+#footer .last div {
+    float: right;
+}
+
+#footer #copy {
+    clear: left;
+	padding-top: 40px;
+}
+#footer #copy a {
+    float: right;
+}
+
+/* Home */
+
+#body {
+    margin-top: -40px !important;
+}
+
+.s-index #background-main {
+    height: 500px;
+}
+
+.s-index h1 {
+	font-weight: normal;
+	font-size: 220%;
+    color: #FFF;
+	text-align: center;
+}
+.s-index h1 a, .s-index h1 a:hover {
+    color: #FFF;
+	text-decoration: underline;
+}
+
+#slideshow {
+    position:relative;
+	width: 960px;
+	height: 460px;
+	background-color: #FFF;
+}
+#slideshow img {
+    position: absolute;
+    top: 10px; left: 10px;
+    z-index: 1;
+}
+#slideshow img.active {
+    z-index: 3;
+}
+#slideshow img.last-active {
+    z-index: 2;
+}
+
+#intros {
+    overflow: hidden;
+    margin-top: 40px;
+	list-style: none;
+}
+#intros li {
+    float: left;
+	margin-right: 30px;
+	width: 300px;
+}
+#intros li:last-child {
+    margin-right: 0;
+}
+#intros li h2 {
+    margin-bottom: 20px;
+	font-weight: normal;
+	color: #333;
+}
+#intros li p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Services */
+
+#services ul {
+    margin-bottom: 40px;
+	list-style: inside square;
+}
+#services ul li {
+    padding: 4px 0;
+}
+
+#services article {
+	margin-bottom: 40px;
+}
+#services article.odd {
+}
+
+#services article h2 {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+#services article img {
+    float: left;
+	margin: 0 40px 40px 0;
+    padding: 5px;
+	width: 300px;
+	height: 100px;
+    border: 1px solid #DDD;
+}
+
+#services article p {
+    padding: 10px 0;
+}
+
+#services article footer {
+    clear: left;
+	padding: 10px;
+	background-color: #F2F2F2;
+	border-radius: 4px;
+	font-size: 90%;
+}
+
+/* Realisations */
+
+#realisations > div {
+  	margin-top: 100px;
+	padding: 40px 0;
+	background: url('../img/realisations/realisations-back.gif') center center repeat-y;
+}
+#realisations .realisation {
+  margin-bottom: 60px;
+}
+#realisations .realisation .year {
+	float: left;
+  	width: 430px;
+	text-align: right;
+	font-size: 180%;
+	color: #999;
+	line-height: 86px;
+}
+#realisations .realisation:hover .year {
+  	color: #333;
+}
+#realisations .odd .year {
+  	float: none;
+	margin-left: 520px;
+  	text-align: left;	
+}
+#realisations .realisation .sep {
+  	float: left;
+	width: 90px;
+}
+#realisations .realisation .sep span {
+  	display: block;
+	margin: 34px 0 0 42px;
+	width: 8px;
+	height: 8px;
+	text-indent: -9000px;
+	background-color: #CCC;
+	border: 4px solid #FFF;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+}
+#realisations .realisation:hover .sep span {
+  	background-color: #333;
+}
+#realisations .realisation .text {
+	margin-left: 520px;
+  	width: 430px;
+}
+#realisations .odd .text {
+	float: left;
+  	margin-left: 0;
+}
+#realisations .realisation .text p {
+  	padding: 20px;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border: 4px solid #F2F2F2;
+}
+
+/* About */
+
+#about p {
+  	margin-bottom: 15px;
+}
+
+#serge {
+    float: right;
+	margin: 0 0 20px 50px;
+}
+#serge div {
+	padding-bottom: 9px;
+	background: url('../img/photo-bottom.png') bottom right no-repeat;
+}
+#serge img {
+    display: block;
+    padding: 5px;
+	width: 300px;
+	height: 200px;
+    border: 1px solid #DDD;
+}
+#serge h2 {
+    margin-top: 10px;
+	padding: 5px;
+	background-color: #F2F2F2;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 120%;
+}
+
+#greffes {
+    margin: 20px 0 0 20px;
+    list-style: inside square;
+}
+#greffes li {
+    padding: 8px 0;
+}
+
+#who {    
+    overflow: hidden;
+	margin-top: 50px;
+}		
+#who li {
+    float: left;
+	margin-top: 40px;
+	width: 50%;
+}
+#who li div {
+    float: left;
+    margin: 0 20px 20px 0;
+	padding-bottom: 9px;
+	width: 150px;
+	background: url('../../img/photo-bottom.png') bottom right no-repeat;
+}
+#who li img {
+    display: block;
+    padding: 2px;
+	width: 146px;
+	height: 146px;
+    border: 1px solid #DDD;
+}
+#who li h3 {
+    margin: 10px 0;
+}
+#who li p {
+    margin-top: 20px;
+	padding-right: 20px;
+}
+
+/* Contact */
+
+#contact .map {
+	margin-top: 60px;
+	padding: 10px;
+	background-color: #F2F2F2;
+}
+
+#contact ul {
+	overflow: hidden;
+	margin-top: 60px;
+}
+
+#contact ul li {
+    float: left;
+    width: 50%;
+    font-size: 160%;
+    text-align: center;
+}
+#contact ul li:last-child {
+	width: 49%;
+	border-left: 1px solid #EEE;
+}
